@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="image/2311503.png" type="image/x-icon">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Paka Paka</title>
+</head>
+<body>
+<!--Header Nav -->
+<nav class="navbar navbar-expand-lg bg-primary navbar-fixed">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#"><i class="fa-solid fa-bars menu"></i></a>
+      <form class="d-flex" role="search">
+        <input class="form-control heer me-2" type="search" placeholder="Faite votre recherche" aria-label="Search" list="produitlist">
+        <datalist id="produitlist">
+            <option value="Gaz"></option>
+            <option value="Essence"></option>
+            <option value="Briquet"></option>
+            <option value="Poulet"></option>
+        </datalist>
+      </form>
+    <button type="button" class="btn btn-outline-light">
+        <i class="fa-regular fa-user"></i>
+        <p class="profile">Profile</p>
+    </button>
+    </div>
+  </nav>
+
+<!-- Body product -->
+
+
+<h3>Bienvenue sur votre Application de livraison à Domicile</h3>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Numéro de Téléphone</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input class="form-control heer me-2" type="search" placeholder="+227:" aria-label="Search" list="produitlist">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Envoyer</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+    <div class="row">
+      <div class="col-12 col-sm col-md-6 col-lg-3 card">
+            <img class="card-img-top rounded" src="image/bgaz.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="bouton">
+                <h5 class="card-title">Echange de Gaz</h5> 
+                <a>
+                  <p>Voir Plus<i class="fa-solid fa-angles-right"></i></p>
+                </a>
+              </div>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet exercitationem impedit voluptate, accusantium mollitia dolorem.</p>
+              <div class="bouton">
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Commander</a>
+                <a href="#" class="btn btn-primary">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+      </div>
+      <div class="col-12 col-sm col-md-6 col-lg-3 card">
+        <img class="card-img-top rounded" src="image/briquet.jpg" alt="Card image cap">
+        <div class="card-body">
+          <div class="bouton">
+            <h5 class="card-title">Briquet</h5> 
+            <a>
+              <p>Voir Plus<i class="fa-solid fa-angles-right"></i></p>
+            </a>
+          </div>
+          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo architecto, maiores vero numquam consectetur fugit!</p>
+          <div class="bouton">
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Commander</a>
+            <a href="#" class="btn btn-primary">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+  </div>
+      <div class="col-12 col-sm col-md-6 col-lg-3 card">
+        <img class="card-img-top rounded" src="image/esce.png" alt="Card image cap">
+            <div class="card-body">
+              <div class="bouton">
+                <h5 class="card-title">Carburant/ Essence</h5> 
+                <a>
+                  <p>Voir Plus<i class="fa-solid fa-angles-right"></i></p>
+                </a>
+              </div>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum vel sint sequi possimus placeat!</p>
+              <div class="bouton">
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Commander</a>
+                <a href="#" class="btn btn-primary">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+      </div>
+      <div class="col-12 col-sm col-md-6 col-lg-3 card">
+            <img class="card-img-top rounded" src="image/poulet.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="bouton">
+                <h5 class="card-title">Poulet de Race</h5> 
+                <a>
+                  <p>Voir Plus<i class="fa-solid fa-angles-right"></i></p>
+                </a>
+              </div>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, eaque earum! Atque, ducimus odio! Omnis.</p>
+              <div class="bouton">
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Commander</a>
+                <a href="#" class="btn btn-primary">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- Footer Nav -->
+
+<nav class="nav">
+    <a href="#" class="nav__link">
+      <i class="material-icons nav__icon">dashboard</i>
+      <span class="nav__text">Acceuil</span>
+    </a>
+    <a href="#" class="nav__link">
+      <i class="material-icons nav__icon">devices</i>
+      <span class="nav__text">Services</span>
+    </a>
+    <a href="#" class="nav__link">
+      <i class="material-icons nav__icon">lock</i>
+      <span class="nav__text">VIP</span>
+    </a>
+    <a href="#" class="nav__link">
+      <i class="material-icons nav__icon">settings</i>
+      <span class="nav__text">Parametres</span>
+    </a>
+</nav>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
